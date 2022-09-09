@@ -1,4 +1,18 @@
+/* generals */
 
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.text-shadow{
+    text-shadow: 5px 5px 40px #000;
+} 
+iframe{
+    border-radius: 8px;
+}
+
+/* nav */
 
 .bs-logo-nav{
     width: 52.5px;
@@ -9,23 +23,20 @@
     text-decoration: underline solid #ffffff;
 }
 
-img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+/* carrousel */
 
 .carrousel-height{
     height: 500px !important;
 }
 
-.text-shadow{
-    text-shadow: 5px 5px 40px #000;
-} 
+/* pricing */
 
 .pricing-margin{
     margin: 0 3em 0 3em;
 }
+
+/* team */
+
 .our-team{
     font-size: 2.75em;
     padding-bottom: 1em;
@@ -44,13 +55,32 @@ img{
     flex-direction: column;
 }
 
+/* banner */
+
 .img-banner{
     height: 300px;
 }
 
-iframe{
-    border-radius: 8px;
+/* footer */
+
+.bs-footer{
+    width: 65px;
+    height: auto;
 }
+
+/* sigin */
+
+.form-signin{
+    height: 100vh;
+    max-width: 20em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* media */
+
 @media (max-width: 900px){
     .hero-2{
         padding-top: 50px;
@@ -71,5 +101,8 @@ iframe{
     }
     .padding-left-team{
         padding-left: 2em;
+    }
+    .container-footer{
+        padding: 0 2em 0 2em;
     }
 }
