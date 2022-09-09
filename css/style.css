@@ -71,12 +71,21 @@ iframe{
 /* sigin */
 
 .form-signin{
-    height: 100vh;
+    height: 95vh;
     max-width: 20em;
     display: flex;
     justify-content: center;
     align-items: center;
     
+}
+
+/* home login */
+
+.home-login{
+    padding: 0.5em;
+    position: relative;
+    width: 0;
+    height: 0;
 }
 
 /* media */
