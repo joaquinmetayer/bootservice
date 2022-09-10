@@ -70,22 +70,23 @@ iframe{
 
 /* sigin */
 
-.form-signin{
-    height: 95vh;
-    max-width: 20em;
+.body-style{
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    flex-direction: column;
 }
-
-/* home login */
-
+.form-signin{
+    width: 25em;
+    max-width: 25em;
+    padding: 0.25em;
+    border: 1px solid #e2e2e2;
+    background-color: #f8f8f8; 
+    border-radius: 8px;
+}
 .home-login{
-    padding: 0.5em;
-    position: relative;
-    width: 0;
-    height: 0;
+    padding-top: 0.5em;
 }
 
 /* media */
